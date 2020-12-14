@@ -2,23 +2,23 @@
 
 Laravel Nova resource tool to view user's data from [intercom.io](https://www.intercom.com/)
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/itainathaniel/nova-intercom-viewer.svg?style=flat-square)](https://packagist.org/packages/itainathaniel/nova-intercom-viewer)
-[![Total Downloads](https://img.shields.io/packagist/dt/itainathaniel/nova-intercom-viewer.svg?style=flat-square)](https://packagist.org/packages/itainathaniel/nova-intercom-viewer)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/leogopaldev/nova-intercom-viewer.svg?style=flat-square)](https://packagist.org/packages/leogopaldev/nova-intercom-viewer)
+[![Total Downloads](https://img.shields.io/packagist/dt/leogopaldev/nova-intercom-viewer.svg?style=flat-square)](https://packagist.org/packages/leogopaldev/nova-intercom-viewer)
 
 **User profile partial panel**
-![screenshot of the user profile partial panel](https://itainathaniel.github.io/nova-intercom-viewer/main.png)
+![screenshot of the user profile partial panel](https://leogopaldev.github.io/nova-intercom-viewer/main.png)
 
 **More data** view, including some extra data, location & custom attributes
-![screenshot of the more data view, including some extra data, location & custom attributes](https://itainathaniel.github.io/nova-intercom-viewer/more.png)
+![screenshot of the more data view, including some extra data, location & custom attributes](https://leogopaldev.github.io/nova-intercom-viewer/more.png)
 
 **Events view**
-![screenshot of the events view](https://itainathaniel.github.io/nova-intercom-viewer/events.png)
+![screenshot of the events view](https://leogopaldev.github.io/nova-intercom-viewer/events.png)
 
 **Conversations view**
-![screenshot of the conversations view](https://itainathaniel.github.io/nova-intercom-viewer/conversations.png)
+![screenshot of the conversations view](https://leogopaldev.github.io/nova-intercom-viewer/conversations.png)
 
 **Notes view**
-![screenshot of the notes view](https://itainathaniel.github.io/nova-intercom-viewer/notes.png)
+![screenshot of the notes view](https://leogopaldev.github.io/nova-intercom-viewer/notes.png)
 
 ## Installation
 
@@ -35,7 +35,7 @@ This package relies on [Intercom's Laravel package](https://github.com/intercom/
 Install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require itainathaniel/nova-intercom-viewer
+composer require leogopaldev/nova-intercom-viewer
 ```
 
 Now you can register this resource tool in your `App\Nova\User` or any other model who uses Intercom on your application. I'll use the User for demonstration purposes:
@@ -84,13 +84,9 @@ And so on. The complete list of functions you could use is this:
 - `hideUseragentdata()`
 - `hideAnalytics()`
 
-### Security
-
-If you discover any security related issues, please email itainathaniel@gmail.com or use the issue tracker.
-
 ## Credits
 
-- [Itai Nathaniel](https://github.com/itainathaniel)
+- [Leo Gopal](https://github.com/leogopaldev)
 
 ## License
 
