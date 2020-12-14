@@ -1,6 +1,6 @@
 {
-    "name": "itainathaniel/nova-intercom-viewer",
-    "description": "Laravel Nova resource tool to view user's data from intercom.io",
+    "name": "leogopaldev/nova-intercom-viewer",
+    "description": "Laravel Nova resource tool to view user's data from intercom",
     "keywords": [
         "laravel",
         "nova",
@@ -9,7 +9,7 @@
     "license": "MIT",
     "require": {
         "php": ">=7.1.0",
-        "intercom/intercom-php": "^3.2"
+        "intercom/intercom-php": "^4.0"
     },
     "autoload": {
         "psr-4": {
