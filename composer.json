@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Itainathaniel\\IntercomViewer\\": "src/"
+            "LG\\IntercomViewer\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Itainathaniel\\IntercomViewer\\ToolServiceProvider"
+                "LG\\IntercomViewer\\ToolServiceProvider"
             ]
         }
     },
